@@ -2,7 +2,7 @@
 #include <vector>
 #include <map>
 
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 #include "vec.h"
 

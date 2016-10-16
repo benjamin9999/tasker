@@ -1,7 +1,7 @@
 #pragma once
 #include <array>
 
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 
 std::array<PixelToaster::TrueColorPixel, 8> cpu_colors{ {

@@ -1,5 +1,5 @@
 #pragma once
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 #include "display-mode.h"
 #include "camera.h"

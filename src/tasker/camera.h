@@ -3,7 +3,7 @@ fps-style camera, as described in
 http://www.opengl-tutorial.org/beginners-tutorials/tutorial-6-keyboard-and-mouse/
 */
 #pragma once
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 #include "mat4.h"
 #include "vec.h"

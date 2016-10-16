@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 #include "aligned-containers.h"
 #include "vec_soa.h"

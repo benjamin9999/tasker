@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include <sstream>
 
-#include "../picopng/picopng.h"
+#include <picopng.h>
 
 #include "profont.h"
 #include "canvas.h"

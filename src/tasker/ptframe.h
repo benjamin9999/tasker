@@ -2,7 +2,7 @@
 raii wrapper for a pixeltoaster frame
 */
 #pragma once
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 #include "canvas.h"
 

@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <intrin.h>
 
-#include "../pixeltoaster/PixelToaster.h"
+#include <PixelToaster.h>
 
 #include "srgb-ryg.h"
 #include "vec_soa.h"
