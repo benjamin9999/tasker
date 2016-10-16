@@ -69,9 +69,6 @@
     <ClInclude Include="aligned-containers.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="aligned-allocator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="tri.h">
       <Filter>Header Files</Filter>
     </ClInclude>

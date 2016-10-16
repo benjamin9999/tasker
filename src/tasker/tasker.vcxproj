@@ -84,6 +84,7 @@
     <Import Project="..\third_party\pixeltoaster.props" />
     <Import Project="..\third_party\cppformat.props" />
     <Import Project="..\third_party\picopng.props" />
+    <Import Project="..\third_party\aligned_allocator.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -91,6 +92,7 @@
     <Import Project="..\third_party\pixeltoaster.props" />
     <Import Project="..\third_party\cppformat.props" />
     <Import Project="..\third_party\picopng.props" />
+    <Import Project="..\third_party\aligned_allocator.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Clang|Win32'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -98,6 +100,7 @@
     <Import Project="..\third_party\pixeltoaster.props" />
     <Import Project="..\third_party\cppformat.props" />
     <Import Project="..\third_party\picopng.props" />
+    <Import Project="..\third_party\aligned_allocator.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -105,6 +108,7 @@
     <Import Project="..\third_party\pixeltoaster.props" />
     <Import Project="..\third_party\cppformat.props" />
     <Import Project="..\third_party\picopng.props" />
+    <Import Project="..\third_party\aligned_allocator.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -112,6 +116,7 @@
     <Import Project="..\third_party\pixeltoaster.props" />
     <Import Project="..\third_party\cppformat.props" />
     <Import Project="..\third_party\picopng.props" />
+    <Import Project="..\third_party\aligned_allocator.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Clang|x64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -119,6 +124,7 @@
     <Import Project="..\third_party\pixeltoaster.props" />
     <Import Project="..\third_party\cppformat.props" />
     <Import Project="..\third_party\picopng.props" />
+    <Import Project="..\third_party\aligned_allocator.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -251,7 +257,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="aligned-allocator.h" />
     <ClInclude Include="aligned-containers.h" />
     <ClInclude Include="array3d.h" />
     <ClInclude Include="barrier.h" />
