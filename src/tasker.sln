@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tasker", "tasker\tasker.vcxproj", "{259CD5BA-0871-4008-843E-ED7359A8495A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5E7665A-391A-4A1A-8F03-621424782B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Clang|x64 = Clang|x64
+		Clang|x86 = Clang|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Clang|x64.ActiveCfg = Clang|x64
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Clang|x64.Build.0 = Clang|x64
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Clang|x86.ActiveCfg = Clang|Win32
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Clang|x86.Build.0 = Clang|Win32
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Debug|x64.ActiveCfg = Debug|x64
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Debug|x64.Build.0 = Debug|x64
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Debug|x86.ActiveCfg = Debug|Win32
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Debug|x86.Build.0 = Debug|Win32
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Release|x64.ActiveCfg = Release|x64
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Release|x64.Build.0 = Release|x64
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Release|x86.ActiveCfg = Release|Win32
+		{259CD5BA-0871-4008-843E-ED7359A8495A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
